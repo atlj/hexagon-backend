@@ -39,6 +39,16 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::post.post"
+    },
+    "coverUrl": {
+      "type": "string",
+      "required": true,
+      "default": "https://i.imgur.com/HUqYBlz.png"
+    },
+    "coverSmallUrl": {
+      "type": "string",
+      "required": true,
+      "default": "https://i.imgur.com/HUqYBlz.png"
     }
   }
 }

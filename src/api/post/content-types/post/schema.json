@@ -21,11 +21,6 @@
       "type": "string",
       "required": true
     },
-    "author": {
-      "type": "string",
-      "default": "Burak Güner",
-      "required": true
-    },
     "postTime": {
       "type": "date",
       "default": "2022-06-01",
@@ -49,6 +44,11 @@
       "type": "string",
       "required": true,
       "default": "https://i.imgur.com/HUqYBlz.png"
+    },
+    "writer": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::writer.writer"
     }
   }
 }
